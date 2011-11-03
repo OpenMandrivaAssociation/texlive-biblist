@@ -1,3 +1,9 @@
+# revision 17116
+# category Package
+# catalog-ctan /macros/latex209/contrib/biblist
+# catalog-date 2010-02-21 11:42:27 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-biblist
 Version:	20100221
 Release:	1
@@ -42,6 +48,7 @@ associated with \nocite{*}.
 %doc %{_texmfdistdir}/doc/latex/biblist/biblist.gde
 %doc %{_texmfdistdir}/doc/latex/biblist/biblist.pdf
 %doc %{_texmfdistdir}/doc/latex/biblist/biblist.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ associated with \nocite{*}.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
