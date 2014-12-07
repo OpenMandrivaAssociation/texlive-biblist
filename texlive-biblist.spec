@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-biblist
 Version:	20100221
-Release:	8
+Release:	9
 Summary:	Print a BibTeX database
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/biblist
