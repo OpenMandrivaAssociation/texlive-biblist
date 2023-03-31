@@ -1,6 +1,6 @@
 Name:		texlive-biblist
 Version:	17116
-Release:	1
+Release:	2
 Summary:	Print a BibTeX database
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/biblist
