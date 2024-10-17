@@ -3,7 +3,7 @@ Version:	17116
 Release:	2
 Summary:	Print a BibTeX database
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/biblist
+URL:		https://www.ctan.org/tex-archive/macros/latex209/contrib/biblist
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biblist.doc.r%{version}.tar.xz
